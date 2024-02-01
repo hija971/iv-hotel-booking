@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section-account{
+  background-image: url("https://landing.engotheme.com/html/lotus/demo/images/banner/img-11.jpg");
+  background-size: cover;
+  background-position: center;
+}
+textarea:focus, input:focus {
+    outline: none;
+    border-color: #e1bd85;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.registerBtn {
+    transition: color 0.3s ease;
+}

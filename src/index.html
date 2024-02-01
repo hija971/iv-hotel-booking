@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slideshow-container {
+            position: relative;
+        }
+
+        .slide {
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1s ease;
+        }
+
+        .slide img {
+            width: 100%;
+            height: auto;
+        }
+
+        .active-slide {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slideshow-container">
+        <div class="slide active-slide">
+            <img src="https://landing.engotheme.com/html/lotus/demo/images/slider/img-4.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="https://landing.engotheme.com/html/lotus/demo/images/slider/img-5.jpg" alt="Slide 2">
+        </div>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlide();
+
+        function showSlide() {
+            const slides = document.getElementsByClassName("slide");
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active-slide");
+            }
+
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            slides[slideIndex - 1].classList.add("active-slide");
+
+            setTimeout(showSlide, 3000); // Chuyển đổi slide sau mỗi 3 giây
+        }
+    </script>
+</body>
+
+</html>

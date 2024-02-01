@@ -1,0 +1,19 @@
+.fa-brands {
+  color: white;
+  font-size: 20px;
+}
+
+.social-content__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.social-content__items:hover {
+  border-color: #e1bd85;
+}

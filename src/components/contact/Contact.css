@@ -1,0 +1,65 @@
+.contact-bg {
+    background-color: #fff;
+}
+
+.section-sub-banner {
+    background-image: url(https://landing.engotheme.com/html/lotus/demo/images/banner/img-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-banner {
+    padding-top: 75px;
+}
+
+.sub-banner .text1 h2 {
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 35.68px;
+}
+
+.sub-banner .text1 p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.show {
+    display: block;
+    visibility: visible;
+}
+
+.awe-btn1 {
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    background-color: #e1bd85;
+    color: #fff;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.awe-btn:hover {
+    border: 3px solid #e1bd85;
+    background-color: #fff;
+    font-weight: 400;
+    color: #e1bd85 !important;
+}
+
+.btn-collapse {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.field-text {
+    border: 3px solid #232323;
+    padding-left: 5px;
+}
+
+.field-textarea {
+    border: 3px solid #232323;
+    padding-left: 5px;
+}

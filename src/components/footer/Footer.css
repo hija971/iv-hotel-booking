@@ -1,0 +1,30 @@
+.footer-top {
+    background: #2e2e2e url("https://landing.engotheme.com/html/lotus/demo/images/bg-footer-top.png")no-repeat;
+    padding: 15px;
+}
+
+.footer-center {
+    background-color: #232323;
+    padding-bottom: 40px;
+}
+
+.tripadvisor-circle {
+    font-size: 15px;
+    border: 2px solid #8bc23f;
+    padding: 1px;
+    background-color: #8bc23f;
+    background-clip: content-box;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.footer-bottom {
+    background-color: #101010;
+    padding: 10px 0;
+    text-align: center;
+    color: #acacac;
+}

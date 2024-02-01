@@ -1,0 +1,113 @@
+.widget-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.widget-deals {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.deal-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal-item.active {
+    opacity: 1;
+}
+
+.deal-img {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.deal-img img {
+    height: 300px !important;
+}
+
+.deal-text {
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    color: #fff;
+    display: none;
+    z-index: 10;
+}
+
+.deal-item.active .deal-text {
+    display: block;
+}
+
+.deal-text h2 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: normal;
+
+}
+
+.deal-price {
+    color: #fff;
+    font-weight: bold;
+    font-size: 39px;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+.deal-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+}
+
+.deal-btn:hover {
+    background-color: #e1bd85;
+    border-color: #e1bd85;
+    color: #fff;
+}
+
+.deal-controls {
+    position: absolute;
+    z-index: 20;
+    right: 1px;
+    bottom: 10px;
+}
+
+.deal-controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.deal-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

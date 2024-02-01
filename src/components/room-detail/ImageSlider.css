@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+.image-slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slide-image {
+    width: 870px;
+}
+
+.image-content h6 {
+    background-color: rgba(51, 51, 51, 0.6);
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: start;
+}
+
+.next-button {
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 8%;
+    font-size: 13px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.prev-button {
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 1.2%;
+    font-size: 13px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}

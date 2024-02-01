@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://landing.engotheme.com/html/lotus/demo/images/room/img-1.jpg",
+        "name": "Luxury Room",
+        "price": 520
+    },
+    {
+        "id": 2,
+        "imgUrl": "https://landing.engotheme.com/html/lotus/demo/images/room/img-2.jpg",
+        "name": "Family Room",
+        "price": 600
+    },
+    {
+        "id": 3,
+        "imgUrl": "https://landing.engotheme.com/html/lotus/demo/images/room/img-3.jpg",
+        "name": "Couple Room",
+        "price": 420
+    },
+    {
+        "id": 4,
+        "imgUrl": "https://landing.engotheme.com/html/lotus/demo/images/room/img-4.jpg",
+        "name": "Standard Room",
+        "price": 180
+    },
+    {
+        "id": 5,
+        "imgUrl": "https://landing.engotheme.com/html/lotus/demo/images/room/img-5.jpg",
+        "name": "Standard Room",
+        "price": 180
+    },
+    {
+        "id": 6,
+        "imgUrl": "https://landing.engotheme.com/html/lotus/demo/images/room/img-6.jpg",
+        "name": "Standard Room",
+        "price": 180
+    }
+]
