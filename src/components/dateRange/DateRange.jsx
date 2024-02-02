@@ -10,7 +10,7 @@ function DateInput(props) {
 
   return (
     <div className="mr-2">
-      <label className="block text-gray-700 font-bold mb-2 text-white" htmlFor={props.name}>
+      <label className="block text-gray-700 font-bold mb-2" htmlFor={props.name}>
         {props.label}
       </label>
       <input
@@ -91,7 +91,7 @@ const DateRange = (props) => {
               onChange={handleDepartureDateChange}
             />
             <div className="mr-2">
-              <label className="block text-gray-700 font-bold mb-2 text-white" htmlFor="adults">
+              <label className="block text-gray-700 font-bold mb-2" htmlFor="adults">
                 Adults
               </label>
               <input
@@ -104,7 +104,7 @@ const DateRange = (props) => {
               />
             </div>
             <div className="mr-2">
-              <label className="block text-gray-700 font-bold mb-2 text-white" htmlFor="children">
+              <label className="block text-gray-700 font-bold mb-2" htmlFor="children">
                 Children
               </label>
               <input
